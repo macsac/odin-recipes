@@ -39,7 +39,8 @@ body {
 }
 
 .links li {
-    display: inline-flex;
+    display: -webkit-inline-flex;
+    writing-mode: horizontal-tb;
     
 }
 
